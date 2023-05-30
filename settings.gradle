@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        //this will help to get the qisdk from net
+        maven {
+            url 'http://android.aldebaran.com/sdk/maven'
+            allowInsecureProtocol = true
+        }
+    }
+}
+rootProject.name = "May30PepperWithDialgoflow"
+include ':app'
