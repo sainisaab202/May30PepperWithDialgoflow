@@ -44,19 +44,10 @@ public class StreamDetectIntent{
     String response;
 
     public StreamDetectIntent(){
-        projectId = "dbc-chatbot-poc";
-        //pepper GPT from sam
-        locationId= "us-central1";
-        agentId = "618fa728-2278-4c4c-8dfc-8967c3bac339";
-
-//        greg
-//        locationId= "northamerica-northeast1";
-//        agentId = "17b8b94f-a3dd-46cb-b15d-891013b921d6";
-
 //personal
-//        projectId = "myprjmay2fordialogflow";
-//        locationId= "us-central1";
-//        agentId = "8bf30bd9-571f-4165-add2-28615ee9c474";
+       projectId = "xxxxxxxx";
+       locationId= "xxxx";
+       agentId = "xxxxxxxxxxxxxxxxxxxxxx";
         sessionId = UUID.randomUUID().toString();
     }
 
